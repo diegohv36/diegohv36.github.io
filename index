@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diego Alonso Huamani Hancco</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background:#eef2f7;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#003366,#0059b3);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.foto{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+header h1{
+    margin-top:20px;
+    font-size:2.2rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    color:#003366;
+    margin-bottom:15px;
+    border-bottom:3px solid #0059b3;
+    padding-bottom:5px;
+}
+
+ul{
+    padding-left:20px;
+    line-height:1.8;
+}
+
+.botones{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:15px;
+}
+
+.boton{
+    background:#0059b3;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background:#003366;
+}
+
+footer{
+    text-align:center;
+    background:#003366;
+    color:white;
+    padding:20px;
+    margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="foto.png" alt="Diego Alonso" class="foto">
+
+<h1>Diego Alonso Huamani Hancco</h1>
+
+<p>Estudiante de Ingeniería de Inteligencia Artificial - UNMSM</p>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Sobre mí</h2>
+
+<p>
+Mi nombre es Diego Alonso Huamani Hancco. Soy estudiante de Ingeniería de Inteligencia Artificial en la Universidad Nacional Mayor de San Marcos. Mi objetivo es desarrollarme profesionalmente, fortalecer mis conocimientos tecnológicos y alcanzar mis metas personales y académicas.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Información Académica</h2>
+
+<p><strong>Universidad:</strong> Universidad Nacional Mayor de San Marcos</p>
+
+<p><strong>Facultad:</strong> Facultad de Ingeniería de Sistemas e Informática</p>
+
+<p><strong>Carrera:</strong> Ingeniería de Inteligencia Artificial</p>
+
+</div>
+
+<div class="card">
+
+<h2>Cursos Actuales</h2>
+
+<ul>
+<li>Introducción a la Computación</li>
+<li>Cálculo I</li>
+<li>Redacción</li>
+<li>Métodos de Estudio Universitario</li>
+<li>Álgebra y Geometría Analítica</li>
+<li>Medio Ambiente y Desarrollo Sostenible</li>
+<li>Desarrollo Personal y Liderazgo</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Mis Hobbies</h2>
+
+<ul>
+<li>🎮 Jugar videojuegos</li>
+<li>♟️ Jugar ajedrez</li>
+<li>🎵 Escuchar música</li>
+<li>⚽ Jugar fútbol</li>
+<li>🎬 Ver películas</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Contacto</h2>
+
+<div class="botones">
+
+<a class="boton" href="mailto:diego.huamanih1@unmsm.edu.pe">
+Correo UNMSM
+</a>
+
+<a class="boton" href="mailto:diegoalonso2h36@gmail.com">
+Correo Personal
+</a>
+
+<a class="boton" href="https://github.com/diegohv36" target="_blank">
+GitHub
+</a>
+
+<a class="boton" href="#">
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="card">
+
+<h2>Red Académica</h2>
+
+<div class="botones">
+
+<a class="boton"
+href="https://www.linkedin.com/in/ecuadrosv/?skipRedirect=true"
+target="_blank">
+Ernesto Cuadros Vargas
+</a>
+
+<a class="boton"
+href="https://www.linkedin.com/in/cristhian-noe-poma-cupe-896610406/"
+target="_blank">
+Cristian Noe Poma
+</a>
+
+<a class="boton"
+href="https://www.linkedin.com/in/arturo-rodrigo-avila-becerra-150956404/"
+target="_blank">
+Arturo Avila Becerra
+</a>
+
+<a class="boton"
+href="https://www.linkedin.com/in/emmanuel-joel-m%C3%A9ndez-rosales-b70171406/"
+target="_blank">
+Enmanuel Mendez Rosales
+</a>
+
+</div>
+
+</div>
+
+
+<footer>
+<p>© 2026 | Diego Alonso Huamani Hancco</p>
+</footer>
+
+</body>
+</html>
+
